@@ -12,6 +12,9 @@ int main(int argc, char *argv[]) {
 		else if (strcmp(argv[1],"-") == 0) {
 			printf("%.6f\n", atof(argv[2]) - atof(argv[3]));
 		}
+		else if (strcmp(argv[1],"*") == 0) {
+			printf("%.6f\n", atof(argv[2]) * atof(argv[3]));
+		} 
 		else if (strcmp(argv[1],"/") == 0) {
 			printf("%.6f\n", atof(argv[2]) / atof(argv[3]));
 		} 
